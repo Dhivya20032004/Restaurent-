@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Restaurant Menu</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Dhivya's Restaurant</h1>
+        <div class="filter-buttons">
+            <button onclick="filterMenu('all')">All</button>
+            <button onclick="filterMenu('appetizers')">Appetizers</button>
+            <button onclick="filterMenu('main-courses')">Main Courses</button>
+            <button onclick="filterMenu('desserts')">Desserts</button>
+        </div>
+        <div class="menu" id="menu">
+            <!-- Menu items will be dynamically inserted here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
